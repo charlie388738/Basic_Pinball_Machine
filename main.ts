@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    music.play(music.builtinPlayableSoundEffect(soundExpression.giggle), music.PlaybackMode.UntilDone)
+    music.play(music.builtinPlayableSoundEffect(soundExpression.hello), music.PlaybackMode.UntilDone)
     basic.showString("GO")
     開始 = 1
 })
